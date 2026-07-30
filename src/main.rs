@@ -1,6 +1,7 @@
 mod display;
 mod display_list;
 mod formatted_print;
+mod formatting;
 mod hello_world;
 
 fn main() {
@@ -11,4 +12,6 @@ fn main() {
     display::run();
     println!();
     display_list::run();
+    println!();
+    formatting::run();
 }
