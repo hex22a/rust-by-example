@@ -4,6 +4,7 @@ mod formatted_print;
 mod formatting;
 mod hello_world;
 mod primitives;
+mod tuples;
 
 fn main() {
     hello_world::run();
@@ -17,4 +18,6 @@ fn main() {
     formatting::run();
     println!();
     primitives::run();
+    println!();
+    tuples::run();
 }
