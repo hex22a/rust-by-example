@@ -1,3 +1,4 @@
+mod arrays_and_slices;
 mod display;
 mod display_list;
 mod formatted_print;
@@ -20,4 +21,6 @@ fn main() {
     primitives::run();
     println!();
     tuples::run();
+    println!();
+    arrays_and_slices::run();
 }
