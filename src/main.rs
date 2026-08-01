@@ -5,6 +5,7 @@ mod formatted_print;
 mod formatting;
 mod hello_world;
 mod primitives;
+mod structs;
 mod tuples;
 
 fn main() {
@@ -23,4 +24,6 @@ fn main() {
     tuples::run();
     println!();
     arrays_and_slices::run();
+    println!();
+    structs::run();
 }
