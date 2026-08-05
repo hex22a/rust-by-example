@@ -1,6 +1,7 @@
 mod arrays_and_slices;
 mod display;
 mod display_list;
+mod error_handling;
 mod formatted_print;
 mod formatting;
 mod hello_world;
@@ -29,4 +30,6 @@ fn main() {
     structs::run();
     println!();
     if_let::run();
+    println!();
+    error_handling::run();
 }
