@@ -4,6 +4,7 @@ mod display_list;
 mod error_handling;
 mod formatted_print;
 mod formatting;
+mod generics;
 mod hello_world;
 mod if_let;
 mod primitives;
@@ -32,4 +33,6 @@ fn main() {
     if_let::run();
     println!();
     error_handling::run();
+    println!();
+    generics::run();
 }
