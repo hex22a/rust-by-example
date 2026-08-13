@@ -9,6 +9,7 @@ mod hello_world;
 mod if_let;
 mod primitives;
 mod structs;
+mod traits;
 mod tuples;
 
 fn main() {
@@ -35,4 +36,6 @@ fn main() {
     error_handling::run();
     println!();
     generics::run();
+    println!();
+    traits::run();
 }
